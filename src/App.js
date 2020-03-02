@@ -4,18 +4,23 @@ import {Tempcomp} from './card_components/TempComponent'
 import './App.css';
 
 class App extends Component{
-  constructor(props){
-    super(props);
+  constructor(){
+    super();
     this.state = {
        dailyData: [],
        City: ''
     }
 }
+   
 
-componentDidMount () {
-  // this.handleSubmit()
-  const city = this.state.City
-  fetch(`http://api.openweathermap.org/data/2.5/forecast?q=abuja&appid=c9864ea908339f90d0b1ad79c454cf80`)
+handleInput = (e) => {
+  this.setState({City: e.target.value})
+  }
+
+ handleSubmit = (e) => {
+   e.preventDefault()
+console.log(this.state.City)
+  fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${this.state.City}&appid=c9864ea908339f90d0b1ad79c454cf80`)
   .then(res => res.json())
   .then(data => { const dailyData = data.list.filter(reading => reading.dt_txt.includes("18:00:00"))
   this.setState({
@@ -26,28 +31,21 @@ componentDidMount () {
 ) 
 }
 
-handleInput = (e) => {
-  this.setState({City: e.target.value});
-}
-
-handleSubmit = (props) => {
-   
-}
-
   render(){
     return (
       <div className="App">
         <h1>Simple Weather App</h1>
+    <h2>city:{this.state.City}</h2>
           <div>
-            <form>
-              <label>
-              Name:
-              <input  onChange={this.handleInput} value={this.state.City} />
-              </label> 
-              <input type="submit" value="Search" onClick={ this.componentDidMount} />
+
+            <form onSubmit={this.handleSubmit}>
+              <input onChange={this.handleInput} value={this.state.City} /> 
+              <button type="submit" >submit</button>
             </form>
+
             <div>
-            <Tempcomp  dailyData = { this.state.dailyData }/>    
+            <Tempcomp  dailyData = { this.state.dailyData }>
+              </Tempcomp>    
             </div>
           </div>
       </div>
@@ -67,20 +65,18 @@ handleSubmit = (props) => {
 //   handleSubmit = () => {
 //     alert(`Quoteth Shakespeare, "You cad! ${this.state.inputText}"`);
 //   }
-//   handleMouse = (e) => {
-//     this.setState({ mouseX: e.screenX, mouseY: e.screenY });
-//   }
+ 
 //   render() {
 //     return (
 //       <div>
 
-//         <input
+//         {/* <input
 //           onChange={this.handleInput}  
 //           value={this.state.inputText}
-//         />
+//         /> */}
 
-//         <form onSubmit={this.handleSubmit}>  {/* 📥 onsubmit */}
-//           <input value={this.state.inputText}/>
+//         <form onSubmit={console.log(this.state.inputText) }>  {/* 📥 onsubmit */}
+//           <input onChange={this.handleInput.bind(this)} value={this.state.inputText}/>
 //           <button type="submit">submit dis</button>
 //         </form>
 
