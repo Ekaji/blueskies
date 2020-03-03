@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { Card } from './card.component'
+
 
 export const Tempcomp = (props) => {
-return <div className="grid_cards">
+return <div className='grid_cards'>
     {props.dailyData.map((reading,index) => 
-         <h1 key={index}> tem: {reading.main.temp} </h1>)}
+         <Card key={index} reading={reading} /> 
+          )}
         </div>     
 }

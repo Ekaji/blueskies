@@ -38,7 +38,7 @@ handleInput = (e) => {
       <div className="App">
         <h1>Simple Weather App</h1>
     <h2>city:{this.state.currCity}</h2>
-          <div>
+          <div  >
 
             <form onSubmit={this.handleSubmit}>
               <input onChange={this.handleInput} value={this.state.currCity} /> 
