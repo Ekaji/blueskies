@@ -2,7 +2,14 @@
   text-align: center;
 }
 
-.App-header {
+.App_background{
+  height: 100vh;
+  overflow: hidden;
+  background: url('./desert-landscape-desktop.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -11,10 +18,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-button {
+.Form_input{
   display: block;
-  margin: 0 auto;
-  color: #61dafb;
+  width: 100%;
+  margin-bottom: 10px;
+}
+ 
+.Form_button{
+  display: block;
+  margin: auto;
 }
