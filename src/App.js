@@ -11,7 +11,7 @@ class App extends Component{
     this.state = {
        dailyData: [],
        currCity: '',
-       loading: false
+       loading: false,
     }
 }
    
@@ -38,22 +38,25 @@ handleInput = (e) => {
 }
 
   render(){
-    const {loading, dailyData} = this.state
+    const {loading, dailyData } = this.state
     return (
       <div className="App App_background" >
-        <h1>Simple Weather App</h1>
-        <h3>city:{this.state.currCity}</h3>
+          <h1 className='indie' >Simple Weather App</h1>
+          <h3 className='indie' >city:{this.state.currCity}</h3>
 
-          <form className='Form_box' onSubmit={this.handleSubmit}>  
-              <input className='form_input' type='search' onChange={this.handleInput} value={this.state.currCity} />
-              <input className='Form_button' type="submit" />
-          </form>
-          
+            <form className='Form_box' onSubmit={this.handleSubmit}> 
+              <div className='formDiv'>
+                <input className='form_input' placeholder='search city' type='search' onChange={this.handleInput} value={this.state.currCity} />
+              </div>
+              <div className='formDiv'>
+                <input className='form_button' type="submit" />
+              </div>   
+            </form>
+      
         <div>
-
-          { loading? <Loading /> : <Tempcomp  dailyData = { dailyData } /> }
-        
+          { loading? <Loading  /> : <Tempcomp dailyData = { dailyData } /> }
         </div>
+
       </div>
     );
   }

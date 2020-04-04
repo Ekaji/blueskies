@@ -1,12 +1,49 @@
+
 .grid_cards{
-    margin: 0 auto;
+    max-width: 1300px;
+    margin: 0 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 1rem;
 }
+
+@media (min-width: 600px) {
+    .grid_cards { 
+        grid-template-columns: repeat(2, 1fr);
+     }
+  }
+
+  @media (min-width: 900px) {
+    .grid_cards { 
+        grid-template-columns: repeat(5, 1fr);
+     }
+  }
 
 .cards{
     border-radius: 2px;
     border-color: black;
 }
 
+.form_input{
+    width: 20%;
+    padding: 10px 30px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+
+.form_button{
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: rgba(0, 230, 118, 0.5);
+    outline: none;
+    border: none;
+    color: black;
+}
+
+.formDiv{
+    padding-bottom: 10px;
+}
