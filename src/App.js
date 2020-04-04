@@ -25,7 +25,7 @@ handleInput = (e) => {
    e.preventDefault();
    //used template literals to pass dynamic arguements to the api
    this.setState({loading: true})
-  fetch(`https://crossorigin.me/http://api.openweathermap.org/data/2.5/forecast?q=${this.state.currCity}&appid=${apiConfig.openWeatherKey}`)
+  fetch(`https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/forecast?q=${this.state.currCity}&appid=${apiConfig.openWeatherKey}`)
   .then(res => res.json())
   .then(data => { const dailyData = data.list.filter(reading => reading.dt_txt.includes("18:00:00"))
   this.setState({
