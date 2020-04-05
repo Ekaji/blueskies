@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/blueskies/static/css/main.8ec9665a.chunk.css",
+    "main.css": "/blueskies/static/css/main.958d3723.chunk.css",
     "main.js": "/blueskies/static/js/main.4a8644b8.chunk.js",
     "main.js.map": "/blueskies/static/js/main.4a8644b8.chunk.js.map",
     "runtime-main.js": "/blueskies/static/js/runtime-main.6e07d9b6.js",
@@ -8,9 +8,9 @@
     "static/js/2.a118853c.chunk.js": "/blueskies/static/js/2.a118853c.chunk.js",
     "static/js/2.a118853c.chunk.js.map": "/blueskies/static/js/2.a118853c.chunk.js.map",
     "index.html": "/blueskies/index.html",
-    "precache-manifest.1e878841fc486b44cd152df8a7686ccc.js": "/blueskies/precache-manifest.1e878841fc486b44cd152df8a7686ccc.js",
+    "precache-manifest.6c1c3f1a4ff855490f667d1a5323019e.js": "/blueskies/precache-manifest.6c1c3f1a4ff855490f667d1a5323019e.js",
     "service-worker.js": "/blueskies/service-worker.js",
-    "static/css/main.8ec9665a.chunk.css.map": "/blueskies/static/css/main.8ec9665a.chunk.css.map",
+    "static/css/main.958d3723.chunk.css.map": "/blueskies/static/css/main.958d3723.chunk.css.map",
     "static/js/2.a118853c.chunk.js.LICENSE.txt": "/blueskies/static/js/2.a118853c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/blueskies/static/media/desert-landscape-desktop.7c9793bf.png",
     "static/media/owfont-regular.css": "/blueskies/static/media/owfont-regular.ed668bf0.woff"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.6e07d9b6.js",
     "static/js/2.a118853c.chunk.js",
-    "static/css/main.8ec9665a.chunk.css",
+    "static/css/main.958d3723.chunk.css",
     "static/js/main.4a8644b8.chunk.js"
   ]
 }
