@@ -1,4 +1,3 @@
-
 .App {
   text-align: center;
 }
@@ -20,25 +19,28 @@
 
 .form_input{
   display: block;
-  width: 20%;
+  width: 70%;
+  height: 20px;
+  font-size: 16px;
   margin: 10px auto;
 }
 
-/* @media (min-width: 600px) {
-  .grid_cards { 
-      grid-template-columns: repeat(2, 1fr);
+@media (min-width: 600px) {
+  .form_input { 
+      width: 50%; 
    }
 }
 
 @media (min-width: 900px) {
-  .grid_cards { 
-      grid-template-columns: repeat(5, 1fr);
+  .form_input { 
+      width: 20%;
    }
-} */
+}
  
-.Form_button{
+.form_button{
   display: block;
   margin: auto;
+  font-size: 16px;
 }
 
 .indie {
