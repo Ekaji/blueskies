@@ -41,12 +41,12 @@ handleInput = (e) => {
     const {loading, dailyData } = this.state
     return (
       <div className="App App_background" >
-          <h1 className='indie' >Blue Skies</h1>
+          <h1 className='indie' >Blue Skies Weather App</h1>
           <h3 className='indie' >city:{this.state.currCity}</h3>
 
             <form className='Form_box' onSubmit={this.handleSubmit}> 
               <div className='formDiv'>
-                <input className='form_input' placeholder='search city' type='search' onChange={this.handleInput} value={this.state.currCity} />
+                <input className='form_input' placeholder='Enter City' type='search' onChange={this.handleInput} value={this.state.currCity} />
               </div>
               <div className='formDiv'>
                 <input className='form_button' type="submit" />
