@@ -18,11 +18,23 @@
   display: none;  /* Chrome Safari */
 }
 
-.Form_input{
+.form_input{
   display: block;
-  width: 100%;
-  margin-bottom: 10px;
+  width: 20%;
+  margin: 10px auto;
 }
+
+/* @media (min-width: 600px) {
+  .grid_cards { 
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media (min-width: 900px) {
+  .grid_cards { 
+      grid-template-columns: repeat(5, 1fr);
+   }
+} */
  
 .Form_button{
   display: block;
