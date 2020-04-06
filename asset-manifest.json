@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/blueskies/static/css/main.f320859a.chunk.css",
-    "main.js": "/blueskies/static/js/main.f37dd785.chunk.js",
-    "main.js.map": "/blueskies/static/js/main.f37dd785.chunk.js.map",
+    "main.js": "/blueskies/static/js/main.240ad5a9.chunk.js",
+    "main.js.map": "/blueskies/static/js/main.240ad5a9.chunk.js.map",
     "runtime-main.js": "/blueskies/static/js/runtime-main.6e07d9b6.js",
     "runtime-main.js.map": "/blueskies/static/js/runtime-main.6e07d9b6.js.map",
-    "static/js/2.a118853c.chunk.js": "/blueskies/static/js/2.a118853c.chunk.js",
-    "static/js/2.a118853c.chunk.js.map": "/blueskies/static/js/2.a118853c.chunk.js.map",
+    "static/js/2.cb944f0d.chunk.js": "/blueskies/static/js/2.cb944f0d.chunk.js",
+    "static/js/2.cb944f0d.chunk.js.map": "/blueskies/static/js/2.cb944f0d.chunk.js.map",
     "index.html": "/blueskies/index.html",
-    "precache-manifest.a6a1719b040aba0dfdcaedbe8b065024.js": "/blueskies/precache-manifest.a6a1719b040aba0dfdcaedbe8b065024.js",
+    "precache-manifest.0c49ec4f3131c12336db8970a1063265.js": "/blueskies/precache-manifest.0c49ec4f3131c12336db8970a1063265.js",
     "service-worker.js": "/blueskies/service-worker.js",
     "static/css/main.f320859a.chunk.css.map": "/blueskies/static/css/main.f320859a.chunk.css.map",
-    "static/js/2.a118853c.chunk.js.LICENSE.txt": "/blueskies/static/js/2.a118853c.chunk.js.LICENSE.txt",
+    "static/js/2.cb944f0d.chunk.js.LICENSE.txt": "/blueskies/static/js/2.cb944f0d.chunk.js.LICENSE.txt",
     "static/media/App.css": "/blueskies/static/media/desert-landscape-desktop.7c9793bf.png",
     "static/media/owfont-regular.css": "/blueskies/static/media/owfont-regular.ed668bf0.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.6e07d9b6.js",
-    "static/js/2.a118853c.chunk.js",
+    "static/js/2.cb944f0d.chunk.js",
     "static/css/main.f320859a.chunk.css",
-    "static/js/main.f37dd785.chunk.js"
+    "static/js/main.240ad5a9.chunk.js"
   ]
 }
