@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/blueskies/static/css/main.f320859a.chunk.css",
-    "main.js": "/blueskies/static/js/main.240ad5a9.chunk.js",
-    "main.js.map": "/blueskies/static/js/main.240ad5a9.chunk.js.map",
+    "main.js": "/blueskies/static/js/main.563072fb.chunk.js",
+    "main.js.map": "/blueskies/static/js/main.563072fb.chunk.js.map",
     "runtime-main.js": "/blueskies/static/js/runtime-main.6e07d9b6.js",
     "runtime-main.js.map": "/blueskies/static/js/runtime-main.6e07d9b6.js.map",
     "static/js/2.cb944f0d.chunk.js": "/blueskies/static/js/2.cb944f0d.chunk.js",
     "static/js/2.cb944f0d.chunk.js.map": "/blueskies/static/js/2.cb944f0d.chunk.js.map",
     "index.html": "/blueskies/index.html",
-    "precache-manifest.0c49ec4f3131c12336db8970a1063265.js": "/blueskies/precache-manifest.0c49ec4f3131c12336db8970a1063265.js",
+    "precache-manifest.e606627a8623ba91a11cb20df9cafbc7.js": "/blueskies/precache-manifest.e606627a8623ba91a11cb20df9cafbc7.js",
     "service-worker.js": "/blueskies/service-worker.js",
     "static/css/main.f320859a.chunk.css.map": "/blueskies/static/css/main.f320859a.chunk.css.map",
     "static/js/2.cb944f0d.chunk.js.LICENSE.txt": "/blueskies/static/js/2.cb944f0d.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.6e07d9b6.js",
     "static/js/2.cb944f0d.chunk.js",
     "static/css/main.f320859a.chunk.css",
-    "static/js/main.240ad5a9.chunk.js"
+    "static/js/main.563072fb.chunk.js"
   ]
 }
